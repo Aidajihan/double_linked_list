@@ -14,6 +14,10 @@ namespace double_linked_list
          * in terms of next and previous */
         public int noMhs;
         public string name;
+        //point to the succending node
+        public Node next;
+        //point to the precceending node
+        public Node prev;
 
     }
 
