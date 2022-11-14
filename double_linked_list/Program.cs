@@ -213,6 +213,12 @@ namespace double_linked_list
                                 }
                                 break ;
 
+                            case '4':
+                                {
+                                    obj.descending();
+                                }
+                                break;
+
 
                         }
                     }
