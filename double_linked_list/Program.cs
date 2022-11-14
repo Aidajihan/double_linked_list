@@ -63,6 +63,22 @@ namespace double_linked_list
                 current != null && nim >= current.noMhs;
                 previous = current = current.next) ;
             {
+                if(nim == current.noMhs)
+                {
+                    Console.WriteLine("\nDuplicate roll numbers not allowed");
+                    return ;
+                }
+
+            }
+            /*On the execution of the above for loop, prev and
+             * * current will point to those nodes
+             * * between wich the name node is to be insarted.*/
+            newNode.next = current;
+            newNode.prev = previous;
+
+            //if the node is to be insarted at the end of the list
+            if(current == null)
+            {
 
             }
 
