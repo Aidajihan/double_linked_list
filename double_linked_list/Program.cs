@@ -20,6 +20,16 @@ namespace double_linked_list
         public Node prev;
 
     }
+    class DoubleLinkedList
+    {
+        Node START;
+
+        //constructor
+        public DoubleLinkedList()
+        {
+            START = null;
+        }
+    }
 
     internal class Program
     {
